@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Tip-Time</string>
+    <string name="cost_of_service">Cost of Service</string>
+    <string name="how_was_the_service">How was the service?</string>
+    <string name="amazing_20">Amazing 20%</string>
+    <string name="good_18">Good 18%</string>
+    <string name="ok_15">OK 15%</string>
+    <string name="calculate">Calculate</string>
+    <!--Now it's time to display the tip in the tip amount TextView element of your app. You could just assign formattedTip to the text attribute, but it would be nice to label what the amount represents. In the U.S. with English, you might have it display Tip Amount: $12.34, but in other languages the number might need to appear at the beginning or even the middle of the string. The Android framework provides a mechanism for this called string parameters, so someone translating your app can change where the number appears if needed.-->
+    <string name="tip_mount">Tip Amount: %s</string> <!--The %s is where the formatted currency will be inserted.-->
+    <string name="round_up_tip">Round up tip?</string>
+</resources>
