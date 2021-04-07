@@ -14,3 +14,5 @@
         <!-- Customize your theme here. -->
     </style>
 </resources>
+
+<!-- En este el "tema oscuro" solo se cambian los atributos "colorPrimary" y "colorPrimaryVariant"-->
