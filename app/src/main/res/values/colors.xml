@@ -7,4 +7,14 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <!--Estos colores fueron generados en la herramienta:
+    https://material.io/resources/color/#!/?view.left=0&view.right=0
+    -->
+    <color name="green">#43a047</color>
+    <color name="green_light">#76d275</color>
+    <color name="green_Dark">#00701a</color>
+    <color name="blue">#4fc3f7</color>
+    <color name="blue_light">#8bf6ff</color>
+    <color name="blue_dark">#0093c4</color>
 </resources>
