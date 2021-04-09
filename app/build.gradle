@@ -15,6 +15,13 @@ android {
         versionName "1.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+
+        /**Solución de retrocompatibilidad de elementos de diseño vectoriales
+         * Para ofrecer compatibilidad con elementos de diseño vectoriales y elementos de diseño vectoriales animados en dispositivos que ejecutan versiones de plataforma anteriores a Android 5.0
+         * https://developer.android.com/guide/topics/graphics/vector-drawable-resources#vector-drawables-backward-solution
+         * Se agrega este código para compatibilidad explicada en el enlace de arriba ↑
+         * */
+        vectorDrawables.useSupportLibrary = true
     }
 
     buildTypes {
@@ -30,7 +37,7 @@ android {
     kotlinOptions {
         jvmTarget = '1.8'
     }
-/**
+/**HACER ESTE CÓDIGO PARA "Enlace de vista"
  * Open the app's build.gradle file ( Gradle Scripts > build.gradle (Module: Tip_Time.app) )
  * In the android section, add the following lines:
 */

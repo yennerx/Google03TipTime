@@ -22,7 +22,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun calculateTip(){
-        val stringInTextField = binding.costOfService.text.toString() //you can convert an Editable to a String by calling toString() on it.
+        val stringInTextField = binding.costOfServiceEditText.text.toString() //you can convert an Editable to a String by calling toString() on it.
         val cost = stringInTextField.toDoubleOrNull() //toDouble() needs to be called on a String --- Calling toDouble() on a string that is empty or a string that doesn't represent a valid decimal number doesn't work. Fortunately Kotlin also provides a method called toDoubleOrNull() which handles these problems. It returns a decimal number if it can, or it returns null if there's a problem.
         //The return instruction means exit the method without executing the rest of the instructions. If the method needed to return a value, you would specify it with a return instruction with an expression.
         if (cost == null || cost == 0.0){
