@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Para crear este archivo: Select the res/values directory, right click and select New > Values Resource File.-->
+    <dimen name="min_text_height">48dp</dimen>
+</resources>
